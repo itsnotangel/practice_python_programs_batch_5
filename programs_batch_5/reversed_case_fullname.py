@@ -2,4 +2,5 @@
 # Reverse the casing of each character and print. 
 
 fullname = input("Enter your full name: ")
-print(fullname)
+reversed_case = fullname.swapcase()
+print(reversed_case)

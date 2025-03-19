@@ -3,4 +3,5 @@
 # Add leading zeros to ensure the number has exactly 6 digits.
 
 number = int(input("Enter a number (0-1000): "))
-print(number)
+formatted_number = f"{number:06}"
+print(formatted_number)

@@ -2,4 +2,5 @@
 # Convert the input to proper case and print. 
 
 fullname = input("Enter your full name: ")
-print(fullname)
+proper_case_name = fullname.title()
+print(proper_case_name)

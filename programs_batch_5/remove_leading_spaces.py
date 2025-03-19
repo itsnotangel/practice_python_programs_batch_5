@@ -2,4 +2,5 @@
 # Remove the leading spaces and print the cleaned name.  
 
 fullname = input("Enter your fullname: ")
-print (fullname)
+formatted_name = fullname.lstrip()
+print (formatted_name)
